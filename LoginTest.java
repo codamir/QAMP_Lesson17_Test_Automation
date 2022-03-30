@@ -182,6 +182,9 @@ public class LoginTest {
 
     @Test(enabled = false, priority = 7, groups = ("Positive"), description = "This test verifies that user" +
             "can open 'Forgot your password' page")
+//  For some reason this test is failing. I tried to change the priority but again, nothing
+//  happened. Accoriding to the error I get, it's in conflict with the previous running test.
+//  I've checked the xpaths, and they are working fine. :(
 
     public void forgotPasswordPageTest() {
         //Click on Forgot your password? link
